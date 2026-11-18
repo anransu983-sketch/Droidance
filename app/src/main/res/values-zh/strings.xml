@@ -8,7 +8,7 @@
     <string name="takeover_text_input">输入文字</string>
     <string name="takeover_insert_text">输入</string>
     <string name="takeover_enter_key">回车</string>
-    <string name="agent_text_input_method_name">Droidance 文本输入</string>
+    <string name="agent_text_input_method_name">未央 文本输入</string>
     <string name="composer_model_auto">自动</string>
     <string name="composer_model_title">模型</string>
     <string name="composer_model_description">模型：%1$s</string>
@@ -16,7 +16,7 @@
     <string name="model_not_configured">尚未配置模型。请先在“AI 模型配置”中添加模型和 API 密钥。</string>
     <string name="composer_picker_close">收起选择</string>
     <string name="execution_interrupted_result">任务因应用中断而结束，未完成全部要求。已有结果和执行记录已保留；最后一步的实际效果可能尚未确认。</string>
-    <string name="app_name">Droidance</string>
+    <string name="app_name">未央</string>
     <string name="common_back">返回</string>
     <string name="common_cancel">取消</string>
     <string name="common_delete">删除</string>
@@ -26,13 +26,13 @@
     <string name="home_new_conversation">新建对话</string>
     <string name="home_conversation_loading">正在加载对话</string>
     <string name="home_conversation_reconnect">重新连接以加载对话</string>
-    <string name="home_welcome_title">你好！我是 Droidance</string>
+    <string name="home_welcome_title">你好！我是 未央</string>
     <string name="home_welcome_subtitle">告诉我你想做什么，我来帮你完成</string>
     <string name="runtime_status_thinking">思考中</string>
     <string name="runtime_status_operating">执行手机操作</string>
     <string name="manual_takeover_channel_name">人工接管提醒</string>
     <string name="manual_takeover_channel_description">当自动化任务需要用户处理验证或阻断时通知你</string>
-    <string name="manual_takeover_notification_title">Droidance 等待你接管</string>
+    <string name="manual_takeover_notification_title">未央 等待你接管</string>
     <string name="manual_takeover_notification_text">任务已暂停。请处理当前页面，完成后点击顶部运行岛“交还 AI”。</string>
     <string name="runtime_island_takeover_requested">请接管</string>
     <string name="runtime_island_user_control">已接管</string>
@@ -68,19 +68,19 @@
     <string name="takeover_start_control">接管</string>
     <string name="takeover_viewer_running">执行中</string>
     <string name="takeover_close_viewer">收起</string>
-    <string name="task_service_channel_name">Droidance 常驻服务</string>
-    <string name="task_service_channel_description">保持 Droidance 在后台运行，防止被系统结束</string>
+    <string name="task_service_channel_name">未央 常驻服务</string>
+    <string name="task_service_channel_description">保持 未央 在后台运行，防止被系统结束</string>
     <string name="task_service_standby_status">待命中，随时可用</string>
     <string name="task_service_running_status">正在执行任务</string>
     <string name="task_service_running_named">正在执行：%1$s</string>
     <string name="task_done_channel_name">任务完成提醒</string>
-    <string name="task_done_channel_description">当 Droidance 完成自动化任务时通知你</string>
+    <string name="task_done_channel_description">当 未央 完成自动化任务时通知你</string>
     <string name="automation_started_notification_title">定时任务已启动</string>
     <string name="automation_started_notification_text">「%1$s」已开始执行</string>
     <string name="task_completed_notification_title">任务已完成</string>
     <string name="task_interrupted_notification_title">任务已中断</string>
     <string name="task_interrupted_default_text">任务已终止</string>
-    <string name="share_conversation_subject">Droidance 对话记录 %1$s</string>
+    <string name="share_conversation_subject">未央 对话记录 %1$s</string>
     <string name="share_conversation_chooser">分享对话记录</string>
     <string name="drawer_delete_running_title">删除正在执行的对话</string>
     <string name="drawer_delete_title">删除对话</string>
@@ -144,7 +144,7 @@
     <string name="settings_clear_logs_detail">清理用于排查问题的运行记录</string>
     <string name="settings_app_updates">应用更新</string>
     <string name="settings_about_version">版本 %1$s</string>
-    <string name="settings_about_app_icon">Droidance 应用图标</string>
+    <string name="settings_about_app_icon">未央 应用图标</string>
     <string name="settings_about_tagline">通用安卓操作智能体</string>
     <string name="settings_github_repository">开源地址</string>
     <string name="settings_open_link">查看</string>
@@ -172,10 +172,10 @@
     <string name="update_action_cancel">稍后</string>
     <string name="update_available_description">有新版本</string>
     <string name="update_notification_channel">应用更新</string>
-    <string name="update_notification_title">Droidance %1$s 已发布</string>
+    <string name="update_notification_title">未央 %1$s 已发布</string>
     <string name="update_notification_text">点击更新</string>
     <string name="update_permission_dialog_title">需要安装权限</string>
-    <string name="update_permission_dialog_desc">覆盖更新需要允许 Droidance 安装未知应用，请在系统设置中开启权限。</string>
+    <string name="update_permission_dialog_desc">覆盖更新需要允许 未央 安装未知应用，请在系统设置中开启权限。</string>
     <string name="update_permission_dialog_confirm">前往设置</string>
     <string name="update_download_error_checksum">安装包完整性校验失败，请重试</string>
     <string name="update_download_error_network">自动重试后仍无法下载，请检查网络后重试</string>
@@ -273,9 +273,9 @@
     <string name="air_pairing_step2_title">打开无线调试并进入配对</string>
     <string name="air_pairing_step2_desc">点下方按钮直达开发者选项，打开「无线调试」，再点「使用配对码配对设备」。</string>
     <string name="air_pairing_step3_title">在通知栏输入 6 位配对码</string>
-    <string name="air_pairing_step3_desc">保持系统配对弹窗不动，下拉通知栏，在 Droidance 的配对通知里填码。</string>
+    <string name="air_pairing_step3_desc">保持系统配对弹窗不动，下拉通知栏，在 未央 的配对通知里填码。</string>
     <string name="air_pairing_start">开始配对</string>
-    <string name="air_pairing_connected_hint">已连接，可以返回继续使用。之后 Droidance 会在需要时自动重连。</string>
+    <string name="air_pairing_connected_hint">已连接，可以返回继续使用。之后 未央 会在需要时自动重连。</string>
     <string name="settings_air_state_paired">已配对 · Wi-Fi 可用时自动重连</string>
     <string name="settings_air_state_unpaired">未配对</string>
     <string name="settings_air_state_pairing_required">配对授权已失效 · 需要重新配对</string>
@@ -345,9 +345,9 @@
     <string name="settings_diagnostics_include_content">附带任务内容</string>
     <string name="settings_diagnostics_include_content_detail">加入对话、截图以及模型请求和回复，可能含有个人信息，请只分享给信任的人。</string>
     <string name="settings_backup_error_password">密码不正确</string>
-    <string name="settings_backup_error_not_backup">这不是 Droidance 备份文件</string>
+    <string name="settings_backup_error_not_backup">这不是 未央 备份文件</string>
     <string name="settings_backup_error_corrupted">备份文件已损坏或不完整</string>
-    <string name="settings_backup_error_newer">这份备份来自更新版本的 Droidance，请先升级应用。</string>
+    <string name="settings_backup_error_newer">这份备份来自更新版本的 未央，请先升级应用。</string>
     <string name="settings_backup_error_busy">有任务正在运行，请等它结束后再试。</string>
     <string name="settings_backup_error_unavailable">设备服务未连接，请连接后再试。</string>
     <string name="settings_backup_error_failed">操作失败，请重试。</string>
@@ -430,9 +430,9 @@
     <string name="provider_remove_model">移除模型</string>
     <string name="provider_default_model">默认模型</string>
     <string name="provider_set_default">设为默认</string>
-    <string name="agents_soul_hint">描述你希望 Droidance 如何交流、思考和完成任务。</string>
+    <string name="agents_soul_hint">描述你希望 未央 如何交流、思考和完成任务。</string>
     <string name="assistant_custom_instructions">执行偏好</string>
-    <string name="assistant_custom_instructions_subtitle">告诉 Droidance 你希望它如何回应和做事</string>
+    <string name="assistant_custom_instructions_subtitle">告诉 未央 你希望它如何回应和做事</string>
     <string name="memory_soul_document">SOUL.md</string>
     <string name="memory_profile_document">USER.md</string>
     <string name="memory_long_term_document">MEMORY.md</string>
@@ -443,7 +443,7 @@
     <string name="memory_saved_memories_empty">暂无长期记忆</string>
     <string name="memory_edit_stale">编辑期间记忆已发生变化，当前内容未保存。请返回后重新打开再修改。</string>
     <string name="memory_edit_ambiguous">无法安全识别多条同时改动的记忆，当前内容未保存。请逐条修改后保存。</string>
-    <string name="onboarding_title">让 Droidance 帮你操作手机</string>
+    <string name="onboarding_title">让 未央 帮你操作手机</string>
     <string name="onboarding_subtitle">连接 AI 模型与设备，\n用一句话，完成手机操作。</string>
     <string name="onboarding_other_permissions">其他权限</string>
     <string name="onboarding_other_permissions_desc">联系人、日历、媒体等，可按需授权</string>
@@ -499,8 +499,8 @@
     <string name="runtime_permission_waiting_action">等待系统权限授权</string>
     <string name="runtime_permission_granted_action">权限已授权，正在继续任务</string>
     <string name="runtime_permission_denied_action">权限未授权，正在返回任务</string>
-    <string name="runtime_permission_notification_title">Droidance 等待系统授权</string>
-    <string name="runtime_permission_notification_text">任务已暂停。点此打开 Droidance，并在系统弹窗中授权或拒绝。</string>
+    <string name="runtime_permission_notification_title">未央 等待系统授权</string>
+    <string name="runtime_permission_notification_text">任务已暂停。点此打开 未央，并在系统弹窗中授权或拒绝。</string>
     <string name="execution_action_crop_zoom">放大查看</string>
     <string name="execution_action_click">点击</string>
     <string name="execution_action_swipe">滑动页面</string>
@@ -535,8 +535,8 @@
     <string name="settings_permissions_pending">可按需授权</string>
     <string name="chat_takeover_resume_hint">处理完成后恢复任务，智能体会重新观察。</string>
     <string name="execution_model_request_timeout">模型响应超时，本轮已停止，请重试。</string>
-    <string name="settings_debug_share_subject">Droidance 数据包</string>
-    <string name="settings_debug_share_chooser">分享 Droidance 数据</string>
+    <string name="settings_debug_share_subject">未央 数据包</string>
+    <string name="settings_debug_share_chooser">分享 未央 数据</string>
     <string name="provider_api_key">API 密钥</string>
     <string name="chat_output_limited">本次回复达到生成上限，内容尚未完成。可以发送“继续”接着生成。</string>
     <string name="execution_action_program">运行程序</string>
@@ -560,7 +560,7 @@
     <string name="settings_limit_minutes">分钟</string>
     <string name="settings_limit_value">%1$d %2$s · 修改</string>
     <string name="automation_next_preview">下次执行：%1$s（%2$s）</string>
-    <string name="settings_repository_url" translatable="false">https://github.com/ybblab/Droidance</string>
+    <string name="settings_repository_url" translatable="false">https://github.com/anransu983-sketch/Droidance</string>
     <string name="connection_unpaired_title">设备尚未连接</string>
     <string name="connection_unpaired_description">请选择无线调试、Root 或 Shizuku，建立设备连接。</string>
     <string name="connection_pairing_required_title">需要重新配对</string>
@@ -657,7 +657,7 @@
     <string name="skill_assessments">本版本使用评估：%1$d 条</string>
     <string name="skill_describe">描述要完成的事情</string>
     <string name="skill_generate">生成草稿</string>
-    <string name="skill_demonstration_scope">先填写目标应用和任务目标，再在 Droidance 虚拟空间中示范一次。结束后由智能体结合操作与前后画面提炼草稿，请避开密码等敏感内容。</string>
+    <string name="skill_demonstration_scope">先填写目标应用和任务目标，再在 未央 虚拟空间中示范一次。结束后由智能体结合操作与前后画面提炼草稿，请避开密码等敏感内容。</string>
     <string name="skill_recording_unavailable">暂时无法开始示范，请检查目标应用与虚拟空间状态。</string>
     <string name="skill_recorded_count">已记录 %1$d 个操作，可交给助手提炼为技能草稿。</string>
     <string name="skill_save_draft">保存草稿</string>
@@ -780,7 +780,7 @@
     <string name="execution_image_historical_at">历史截图 · %1$s</string>
     <string name="execution_historical_evidence">读取历史证据（非当前操作画面）</string>
     <string name="execution_action_read_history">读取历史记录</string>
-    <string name="conversation_export_title">Droidance 对话记录</string>
+    <string name="conversation_export_title">未央 对话记录</string>
     <string name="conversation_export_time">导出时间：%1$s</string>
     <string name="conversation_export_user">用户</string>
     <string name="runtime_model_switched">\n&gt; ⚠️ 模型 `%1$s` 不可用；已切换至 `%2$s`\n</string>
@@ -858,7 +858,7 @@
     <string name="connection_shizuku_resident_available">当前设备连接仍可用；再次建立连接前请启动 Shizuku。</string>
     <string name="connection_shizuku_update_required">请更新 Shizuku 后再连接。</string>
     <string name="connection_shizuku_shell_required">请通过无线调试启动 Shizuku；已获取 Root 权限的设备也可选择 Root 连接。</string>
-    <string name="connection_shizuku_denied">未获得 Shizuku 授权，请在 Shizuku 中检查 Droidance 授权。</string>
+    <string name="connection_shizuku_denied">未获得 Shizuku 授权，请在 Shizuku 中检查 未央 授权。</string>
     <string name="connection_shizuku_start_failed">已获得 Shizuku 授权，但设备连接未建立，请重试。</string>
     <string name="connection_shizuku_stopped_title">Shizuku 尚未启动</string>
     <string name="connection_shizuku_auth_title">需要 Shizuku 授权</string>

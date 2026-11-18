@@ -1,0 +1,39 @@
+# SPDX-FileCopyrightText: 2026 anransu983-sketch
+# SPDX-License-Identifier: Apache-2.0
+# 未央定制：debug 构建工作流（上游 CI 只编 release unsigned 且不上传产物，
+# 首版试用先用 debug 包：包名 com.droidance.debug，可与官方版共存）。
+
+name: Weiyang debug build
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+      - uses: gradle/actions/setup-gradle@v4
+      - name: Install NDK
+        run: |
+          set +o pipefail
+          yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" "ndk;27.0.12077973" > /dev/null
+      - name: Build debug APK
+        env:
+          ORG_GRADLE_PROJECT_droidanceUpdateRepository: anransu983-sketch/Droidance
+        run: ./gradlew :app:assembleDebug
+      - name: Upload debug APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: weiyang-debug-apk
+          path: app/build/outputs/apk/debug/app-debug.apk
+          retention-days: 14

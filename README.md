@@ -1,3 +1,10 @@
+# 未央
+
+> 未央是 [Droidance](https://github.com/ybblab/Droidance)（ybblab，Apache-2.0）的定制 fork，基于上游 v0.3.1。包名暂保持 `com.droidance`（改包曾导致闪退，先不动），应用名、文案与更新源已改为未央 / 本 fork。修改过的文件已注明，LICENSE 与 NOTICE 保留原样。
+>
+> Weiyang is a customized fork of Droidance v0.3.1 (ybblab, Apache-2.0). Package name stays `com.droidance` for now; app name, strings and update source point to this fork.
+
+---
 <div align="center">
 
 <img src="app/src/main/res/drawable-nodpi/droidance_launcher_icon.png" alt="Droidance" width="120" />
